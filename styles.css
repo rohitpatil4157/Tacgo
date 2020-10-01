@@ -1,1 +1,11 @@
 /* Your CSS Here! */
+<style>
+background : "Grey" ;
+color : "black" ;
+@font-face {
+   font-family: myFirstFont;
+   src: url(sansation_bold.woff);
+   font-weight: bold;
+}
+
+</style>
