@@ -1,5 +1,5 @@
 console.log("Welcome to Tic Tac Toe")
-let music = new Audio("https://www.youtube.com/watch?v=a94YdLqr3hQ")
+let music = new Audio("music.mp3")
 let audioTurn = new Audio("ting.mp3")
 let gameover = new Audio("gameover.mp3")
 let turn = "X"
@@ -69,4 +69,5 @@ reset.addEventListener('click', ()=>{
     document.querySelector('.imgbox').getElementsByTagName('img')[0].style.width = "0px"
     gameover.play()
 })
+
 
