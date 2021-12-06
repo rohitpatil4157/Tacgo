@@ -37,7 +37,8 @@ const checkWin = ()=>{
 }
 
 // Game Logic
-newsong.play()
+// newsong.play()
+Music.play()
 let boxes = document.getElementsByClassName("box");
 Array.from(boxes).forEach(element =>{
     let boxtext = element.querySelector('.boxtext');
@@ -57,7 +58,7 @@ Array.from(boxes).forEach(element =>{
 
 // Add onclick listener to reset button
 reset.addEventListener('click', ()=>{
-    Music.play()
+    
     let boxtexts = document.querySelectorAll('.boxtext');
     Array.from(boxtexts).forEach(element => {
         element.innerText = ""
